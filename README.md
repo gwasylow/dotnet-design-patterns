@@ -17,14 +17,18 @@ Dotnet design patterns
 		
 3. Creational.FactoryMethod:
 	- Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
-	- Usage: web application views engine, let the concrete wizards display what is really needed:
+	- Usage I: web application views engine, let the concrete wizards display what is really needed:
 		- ReportSection (FactoryMethod) will build Report-related pages (decide internally which ones),
 		- UserSection (FactoryMethod) will build User-related pages (decide internally which ones),
 		- AdminPanelSection (FactoryMethod) will build Admin-Panel pages (decide internally which ones).
+	- Usage II: Webshop sells completely different products, but at the end of a day all products share common base. FactoryMethod would be a great improvement in here. 
 
 4. Creational.Prototype:
 	- Specify the kind of objects to create using a prototypical instance, and create new objects by copying this prototype.
 	- Usage: any time we need to Clone objects, we should follow the Prototype Design Pattern.
 		- We need to implement Clone() method which will be exposed outside of a logic and perform real clonning on concrete prototype,
 		- Copied class shoud be automatically initialised under specialised conditions, we would like to have a control over that process.
-	
+
+5. Creational.Singleton:
+	- A class of which only a single instance can exist
+	- Usage: always when single intance of an object is required.
