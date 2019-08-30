@@ -44,3 +44,8 @@ Dotnet design patterns
 		- Main role is to create an adapter that would be able to interact between different types,
 		- Adapter pattern maps the interface of one class onto another so that they can work together. These incompatible classes may come from different libraries or frameworks,
 		- Example: compund of chemical structures could be `adapted` together.
+		
+7. Structural.Bridge:
+	- Separates an object’s interface from its implementation,
+	- Decouple an abstraction from its implementation so that the two can vary independently,
+	- Usage: decouple different types (Book/Car/Plane) and separate them using abstract `Operation` method. Use to decompose absraction from implementation (value added: we can modify elements with no dependencies).
