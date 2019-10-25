@@ -60,7 +60,7 @@
 	- Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
 	- Usage: Directory tree
 	- Usage: Corporate structure tree	
-![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/composite.PNG)	
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-composite.PNG)	
 	
 	
 9. Structural.Decorator:
