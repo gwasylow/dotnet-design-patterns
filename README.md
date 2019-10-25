@@ -41,6 +41,7 @@ Dotnet design patterns
 6. Structural.Adapter:
 	- Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
 	- Usage: use adapter pattern when classes should be compatible, however by default they are not able.
+		- Use Adapter to adapt two different APIs to each other, for example: integration of WinApi and LinuxApi.
 		- Main role is to create an adapter that would be able to interact between different types,
 		- Adapter pattern maps the interface of one class onto another so that they can work together. These incompatible classes may come from different libraries or frameworks,
 		- Example: compund of chemical structures could be `adapted` together.
@@ -49,3 +50,11 @@ Dotnet design patterns
 	- Separates an object’s interface from its implementation,
 	- Decouple an abstraction from its implementation so that the two can vary independently,
 	- Usage: decouple different types (Book/Car/Plane) and separate them using abstract `Operation` method. Use to decompose absraction from implementation (value added: we can modify elements with no dependencies).
+	- Usage: separate two different APIs, like WinApi and UnixApi and take the most important common part together.
+	
+8. Structural.Decoarator:
+	- Attach `additional responsibilities to an object dynamically`. Add additional behaviour to class without their code modification.
+	- Decorators provide a flexible alternative to subclassing for extending functionality.
+	- Use composition alternatively to inheritance. `SOLID principle => O => Open for extension, closed for modification`.
+	- USe Decoarator when you are unable to modify the exisiting code, there's many combination of types (mixed) you'd like to use.
+	
