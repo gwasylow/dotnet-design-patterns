@@ -1,5 +1,5 @@
-# dotnet-design-patterns
-Dotnet design patterns
+#dotnet-design-patterns
+##Dotnet design patterns
 
 * Creational:
 1. Creational.AbstractFactory:
@@ -57,4 +57,6 @@ Dotnet design patterns
 	- Decorators provide a flexible alternative to subclassing for extending functionality.
 	- Use composition alternatively to inheritance. `SOLID principle => O => Open for extension, closed for modification`.
 	- USe Decoarator when you are unable to modify the exisiting code, there's many combination of types (mixed) you'd like to use.
+	
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-decorator.PNG)
 	
