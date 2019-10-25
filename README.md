@@ -45,18 +45,28 @@
 		- Main role is to create an adapter that would be able to interact between different types,
 		- Adapter pattern maps the interface of one class onto another so that they can work together. These incompatible classes may come from different libraries or frameworks,
 		- Example: compund of chemical structures could be `adapted` together.
+
 		
 7. Structural.Bridge:
 	- Separates an object’s interface from its implementation,
 	- Decouple an abstraction from its implementation so that the two can vary independently,
 	- Usage: decouple different types (Book/Car/Plane) and separate them using abstract `Operation` method. Use to decompose absraction from implementation (value added: we can modify elements with no dependencies).
 	- Usage: separate two different APIs, like WinApi and UnixApi and take the most important common part together.
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-bridge.PNG)
 	
-8. Structural.Decoarator:
+	
+8. Structural.Composite:
+	- Tree structure organisation,
+	- Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+	- Usage: Directory tree
+	- Usage: Corporate structure tree	
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/composite.PNG)	
+	
+	
+9. Structural.Decorator:
 	- Attach `additional responsibilities to an object dynamically`. Add additional behaviour to class without their code modification.
-	- Decorators provide a flexible alternative to subclassing for extending functionality.
+	- Decorator provide a flexible alternative to subclassing for extending functionality.
 	- Use composition alternatively to inheritance. `SOLID principle => O => Open for extension, closed for modification`.
 	- USe Decoarator when you are unable to modify the exisiting code, there's many combination of types (mixed) you'd like to use.
-	
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-decorator.PNG)
 	
