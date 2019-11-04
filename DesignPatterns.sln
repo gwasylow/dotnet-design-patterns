@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Composite", "Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structrural.Decorator", "Structrural.Decorator\Structrural.Decorator.csproj", "{CDFC2BC1-AAF1-4237-AE5C-44C3B84653C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Facade", "Structural.Facade\Structural.Facade.csproj", "{C36965DA-4B7F-4693-9731-4D154818E9A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{CDFC2BC1-AAF1-4237-AE5C-44C3B84653C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDFC2BC1-AAF1-4237-AE5C-44C3B84653C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDFC2BC1-AAF1-4237-AE5C-44C3B84653C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C36965DA-4B7F-4693-9731-4D154818E9A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C36965DA-4B7F-4693-9731-4D154818E9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C36965DA-4B7F-4693-9731-4D154818E9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C36965DA-4B7F-4693-9731-4D154818E9A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,7 +11,7 @@ namespace Structrural.Decorator.Decorator
     /// <summary>
     /// The 'ConcreteDecorator' class
     /// </summary>
-    class Borrowable : AbstractDecorator.Decorator
+    class Borrowable : AbstractDecorator.AbstractDecorator
     {
         protected List<string> _borrowers = new List<string>();
 
