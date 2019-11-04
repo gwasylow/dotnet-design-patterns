@@ -11,7 +11,6 @@ namespace Structrural.Decorator.Component
     /// The 'ConcreteComponent' class
     /// </summary>
     class Video : LibraryItem
-
     {
         private string _director;
         private string _title;

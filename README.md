@@ -49,6 +49,7 @@
 		- Main role is to create an adapter that would be able to interact between different types,
 		- Adapter pattern maps the interface of one class onto another so that they can work together. These incompatible classes may come from different libraries or frameworks,
 		- Example: compund of chemical structures could be `adapted` together.
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-adapter.PNG)
 
 		
 7. Structural.Bridge:
@@ -73,10 +74,17 @@
 	- Use composition alternatively to inheritance. `SOLID principle => O => Open for extension, closed for modification`.
 	- USe Decoarator when you are unable to modify the exisiting code, there's many combination of types (mixed) you'd like to use.
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-decorator.PNG)
-	
 
-Architecures Review:
-	- MVC
-	- MVP
-	- MVVM
+
+10. Structural.Facade:
+	- Main reason: `Single class that represents an entire subsystem(s)`
+	- Façade defines a higher-level interface that makes the subsystem easier to use.
+	- Usage: Bank system (Mortgage Facade) that checks other sub-systems is Customer eligble to take a mortgage. 
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-facade.PNG)	
+
+
+11. Architecures Review:
+	- MVC (Web Apps - CORE / ASP.NET / SPA)
+	- MVP (Windows Forms)
+	- MVVM (WPF apps)
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dg-mvc-mvp-mvvm.PNG)

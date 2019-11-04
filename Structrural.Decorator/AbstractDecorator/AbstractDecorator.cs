@@ -10,11 +10,11 @@ namespace Structrural.Decorator.AbstractDecorator
     /// <summary>
     /// The 'Decorator' abstract class
     /// </summary>
-    abstract class Decorator : LibraryItem
+    abstract class AbstractDecorator : LibraryItem
     {
         protected LibraryItem _libraryItem;
 
-        public Decorator(LibraryItem libraryItem)
+        public AbstractDecorator(LibraryItem libraryItem)
         {
             this._libraryItem = libraryItem;
         }

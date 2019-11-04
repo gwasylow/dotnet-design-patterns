@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CDFC2BC1-AAF1-4237-AE5C-44C3B84653C7}</ProjectGuid>
+    <ProjectGuid>{C36965DA-4B7F-4693-9731-4D154818E9A8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Structrural.Decorator</RootNamespace>
-    <AssemblyName>Structrural.Decorator</AssemblyName>
+    <RootNamespace>Structural.Facade</RootNamespace>
+    <AssemblyName>Structural.Facade</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractComponent\LibraryItem.cs" />
-    <Compile Include="Component\Book.cs" />
-    <Compile Include="Component\Video.cs" />
-    <Compile Include="AbstractDecorator\AbstractDecorator.cs" />
-    <Compile Include="Decorator\Borrowable.cs" />
+    <Compile Include="Facade\MortgageFacade.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubSystems\BankSubSystem.cs" />
+    <Compile Include="SubSystems\CreditSubSystem.cs" />
+    <Compile Include="SubSystems\Customer.cs" />
+    <Compile Include="SubSystems\LoanSubSystem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
