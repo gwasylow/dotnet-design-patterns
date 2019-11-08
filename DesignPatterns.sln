@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structrural.Decorator", "St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Facade", "Structural.Facade\Structural.Facade.csproj", "{C36965DA-4B7F-4693-9731-4D154818E9A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Flyweight", "Structural.Flyweight\Structural.Flyweight.csproj", "{A8286C7F-2CE3-451E-85C2-C13ECA176E06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Proxy", "Structural.Proxy\Structural.Proxy.csproj", "{B770D39E-B6AE-4178-A4A8-3F8FCADAFE78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{C36965DA-4B7F-4693-9731-4D154818E9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C36965DA-4B7F-4693-9731-4D154818E9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C36965DA-4B7F-4693-9731-4D154818E9A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8286C7F-2CE3-451E-85C2-C13ECA176E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8286C7F-2CE3-451E-85C2-C13ECA176E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8286C7F-2CE3-451E-85C2-C13ECA176E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8286C7F-2CE3-451E-85C2-C13ECA176E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B770D39E-B6AE-4178-A4A8-3F8FCADAFE78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B770D39E-B6AE-4178-A4A8-3F8FCADAFE78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B770D39E-B6AE-4178-A4A8-3F8FCADAFE78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B770D39E-B6AE-4178-A4A8-3F8FCADAFE78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

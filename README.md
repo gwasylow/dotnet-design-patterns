@@ -39,6 +39,7 @@
 	- A class of which only a single instance can exist
 	- Usage: always when single intance of an object is required,
 		- Info: `static readonly` fields are thread-safe in MS .NET Framework. No-Lock is needed.
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-singleton.PNG)
 
 
 * Structural:	
@@ -79,12 +80,33 @@
 10. Structural.Facade:
 	- Main reason: `Single class that represents an entire subsystem(s)`
 	- Façade defines a higher-level interface that makes the subsystem easier to use.
+	- `Façade see all sub systems, but sub systems don't see/interact with a Façade` & other sub systems (simple composition)
 	- Usage: Bank system (Mortgage Facade) that checks other sub-systems is Customer eligble to take a mortgage. 
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-facade.PNG)	
 
 
-11. Architecures Review:
+11. Structural.Flyweight:
+	- Pattern used for a `fine-grained instance used for efficient sharing`
+	- Use sharing to support large numbers of fine-grained objects efficiently - simply: `memory optimisation/object normalization technique`
+	- The Flyweight pattern conserves memory by sharing large numbers of fine-grained objects efficiently. 
+	- Shared flyweight objects are immutable, that is, they cannot be changed as they represent the characteristics that are shared with other objects.
+	- Usage: Always when memory optimisation process is required.
+	- Usage: You will find flyweights mostly in utility type applications such as word processors, graphics programs, and network apps; they are less often used in data-driven business type applications.
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-flyweight.PNG)
+
+
+12. Structural.Proxy:
+	- Provide a surrogate or `placeholder for another object to control access to it`. We have several kind of proxies:
+		- `remote proxies` are responsible for encoding a request and its arguments and for sending the encoded request to the real subject in a different address space.
+		- `virtual proxies` may cache additional information about the real subject so that they can postpone accessing it. For example, the ImageProxy from the Motivation caches the real images's extent.
+		- `protection proxies` check that the caller has the access permissions required to perform a request.
+	- Usage: Always when we do not want to expose the classes/objects `called Subjects` to a Client, we can hide the implementation by a Proxy.
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-proxy.PNG)	
+
+
+13. Architecures Review:
 	- MVC (Web Apps - CORE / ASP.NET / SPA)
 	- MVP (Windows Forms)
 	- MVVM (WPF apps)
+	
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dg-mvc-mvp-mvvm.PNG)
