@@ -39,6 +39,7 @@
 	- A class of which only a single instance can exist
 	- Usage: always when single intance of an object is required,
 		- Info: `static readonly` fields are thread-safe in MS .NET Framework. No-Lock is needed.
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-singleton.PNG)
 
 
 * Structural:	
