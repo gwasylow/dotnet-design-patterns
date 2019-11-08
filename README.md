@@ -79,11 +79,22 @@
 10. Structural.Facade:
 	- Main reason: `Single class that represents an entire subsystem(s)`
 	- Façade defines a higher-level interface that makes the subsystem easier to use.
+	- `Façade see all sub systems, but sub systems don't see/interact with a Façade` & other sub systems (simple composition)
 	- Usage: Bank system (Mortgage Facade) that checks other sub-systems is Customer eligble to take a mortgage. 
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-facade.PNG)	
 
 
-11. Architecures Review:
+11. Structural.Flyweight:
+	- Pattern used for a `fine-grained instance used for efficient sharing`
+	- Use sharing to support large numbers of fine-grained objects efficiently - simply: `memory optimisation/object normalization technique`
+	- The Flyweight pattern conserves memory by sharing large numbers of fine-grained objects efficiently. 
+	- Shared flyweight objects are immutable, that is, they cannot be changed as they represent the characteristics that are shared with other objects.
+	- Usage: Always when memory optimisation process is required.
+	- Usage: You will find flyweights mostly in utility type applications such as word processors, graphics programs, and network apps; they are less often used in data-driven business type applications.
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-flyweight.PNG)
+
+
+12. Architecures Review:
 	- MVC (Web Apps - CORE / ASP.NET / SPA)
 	- MVP (Windows Forms)
 	- MVVM (WPF apps)
