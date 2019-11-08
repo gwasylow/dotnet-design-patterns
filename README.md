@@ -94,8 +94,18 @@
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-flyweight.PNG)
 
 
-12. Architecures Review:
+12. Structural.Proxy:
+	- Provide a surrogate or `placeholder for another object to control access to it`. We have several kind of proxies:
+		- `remote proxies` are responsible for encoding a request and its arguments and for sending the encoded request to the real subject in a different address space.
+		- `virtual proxies` may cache additional information about the real subject so that they can postpone accessing it. For example, the ImageProxy from the Motivation caches the real images's extent.
+		- `protection proxies` check that the caller has the access permissions required to perform a request.
+	- Usage: Always when we do not want to expose the classes/objects `called Subjects` to a Client, we can hide the implementation by a Proxy.
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-proxy.PNG)	
+
+
+13. Architecures Review:
 	- MVC (Web Apps - CORE / ASP.NET / SPA)
 	- MVP (Windows Forms)
 	- MVVM (WPF apps)
+	
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dg-mvc-mvp-mvvm.PNG)
