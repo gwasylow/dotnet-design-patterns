@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Flyweight", "Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Proxy", "Structural.Proxy\Structural.Proxy.csproj", "{B770D39E-B6AE-4178-A4A8-3F8FCADAFE78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.ChainOfResponsibility", "Behavioral.ChainOfResponsibility\Behavioral.ChainOfResponsibility.csproj", "{5700E58A-C2D1-4E20-ACC6-A04D918E83BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{B770D39E-B6AE-4178-A4A8-3F8FCADAFE78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B770D39E-B6AE-4178-A4A8-3F8FCADAFE78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B770D39E-B6AE-4178-A4A8-3F8FCADAFE78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5700E58A-C2D1-4E20-ACC6-A04D918E83BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5700E58A-C2D1-4E20-ACC6-A04D918E83BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5700E58A-C2D1-4E20-ACC6-A04D918E83BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5700E58A-C2D1-4E20-ACC6-A04D918E83BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
