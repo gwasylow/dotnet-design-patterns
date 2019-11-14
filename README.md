@@ -33,6 +33,7 @@
 		- We need to implement `Clone()` method which will be exposed outside of a logic and perform real clonning on concrete prototype,
 		- Copied class shoud be automatically initialised under specialised conditions, we would like to have a control over that process,
 		- In a simple words: "Create and initialise an object by `Clone()` method basing on your statement".
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-prototype.PNG)
 
 
 5. Creational.Singleton:
@@ -104,7 +105,14 @@
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-proxy.PNG)	
 
 
-13. Architecures Review:
+13. Behavioral.ChainOfResponsibility:
+	- Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. `Chain the receiving objects and pass the request along the chain until an object handles it`.
+	- Usage: Object responsilibity chain to represent requests submission across different Objects basing on the agreed order.
+	- Usage: Purchase approval system in a Company: Lead -> Manager -> CIO -> COO
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-chain-of-responsibility.PNG)	
+
+
+14. Architecures Review:
 	- MVC (Web Apps - CORE / ASP.NET / SPA)
 	- MVP (Windows Forms)
 	- MVVM (WPF apps)

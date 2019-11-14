@@ -14,17 +14,18 @@ namespace Structural.Flyweight.ConcreteFlyweight
     {
         public CharacterA()
         {
-            this.symbol = 'A';
-            this.height = 100;
-            this.width = 120;
-            this.ascent = 70;
-            this.descent = 0;
+            base.symbol = 'A';
+            base.height = 100;
+            base.width = 120;
+            base.ascent = 70;
+            base.descent = 0;
         }
 
+        //DRY - if the 
         public override void Display(int pointSize)
         {
-            this.pointSize = pointSize;
-            Console.WriteLine(this.symbol + " (pointsize " + this.pointSize + ")");
+            base.pointSize = pointSize;
+            Console.WriteLine(base.symbol + " (pointsize " + base.pointSize + ")");
         }
     }
 }

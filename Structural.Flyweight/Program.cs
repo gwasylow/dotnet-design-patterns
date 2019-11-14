@@ -53,6 +53,7 @@ namespace Structural.Flyweight
             foreach (char c in chars)
             {
                 pointSize++;
+
                 Character character = factory.GetCharacter(c);
                 character.Display(pointSize);
             }

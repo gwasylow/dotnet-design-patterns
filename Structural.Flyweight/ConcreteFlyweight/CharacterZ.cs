@@ -14,17 +14,17 @@ namespace Structural.Flyweight.ConcreteFlyweight
     {
         public CharacterZ()
         {
-            this.symbol = 'Z';
-            this.height = 100;
-            this.width = 100;
-            this.ascent = 68;
-            this.descent = 0;
+            base.symbol = 'Z';
+            base.height = 100;
+            base.width = 100;
+            base.ascent = 68;
+            base.descent = 0;
         }
 
         public override void Display(int pointSize)
         {
-            this.pointSize = pointSize;
-            Console.WriteLine(this.symbol + " (pointsize " + this.pointSize + ")");
+            base.pointSize = pointSize;
+            Console.WriteLine(base.symbol + " (pointsize " + base.pointSize + ")");
         }
     }
 }
