@@ -25,6 +25,7 @@
 		- UserSection (FactoryMethod) will build User-related pages (decide internally which ones),
 		- AdminPanelSection (FactoryMethod) will build Admin-Panel pages (decide internally which ones).
 	- Usage II: Webshop sells completely different products, but at the end of a day all products share common base. FactoryMethod would be a great improvement in here. 
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-factory-method.PNG)
 
 
 4. Creational.Prototype:
