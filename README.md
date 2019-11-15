@@ -9,6 +9,7 @@
 		- PdfReports, share dependencies among report family, ConcreteFacotry1,
 		- XlsReports, share dependencies among report family, ConcreteFacotry2,
 		- PlainReports, share dependencies among report family, ConcreteFacotry3.
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-abstract-factory.PNG)
 
 		
 2. Creational.Builder:
@@ -16,6 +17,7 @@
 	- Usage: vehicle factory:
 		- Runs always 3 steps: `Plan / Build / Tests` (building methods),
 		- In our case we would like to have a possibility to build a Car, Scooter and Motorcyckle. Builder seems to be the best option in here.
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-builder.PNG)
 
 		
 3. Creational.FactoryMethod:
