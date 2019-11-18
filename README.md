@@ -115,7 +115,15 @@
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-chain-of-responsibility.PNG)	
 
 
-14. Architecures Review:
+14. Behavioral.Command:
+	- `Encapsulate a command request as an object`
+	- Pass commands towards the obects to execute the program flow
+	- Usage: State machine
+	- Usage: Calculator with Undo/Redo options (separate commands) history
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-command.PNG)	
+
+
+15. Architecures Review:
 	- MVC (Web Apps - CORE / ASP.NET / SPA)
 	- MVP (Windows Forms)
 	- MVVM (WPF apps)
