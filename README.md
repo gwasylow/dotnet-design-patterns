@@ -9,6 +9,7 @@
 		- PdfReports, share dependencies among report family, ConcreteFacotry1,
 		- XlsReports, share dependencies among report family, ConcreteFacotry2,
 		- PlainReports, share dependencies among report family, ConcreteFacotry3.
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-abstract-factory.PNG)
 
 		
 2. Creational.Builder:
@@ -16,6 +17,7 @@
 	- Usage: vehicle factory:
 		- Runs always 3 steps: `Plan / Build / Tests` (building methods),
 		- In our case we would like to have a possibility to build a Car, Scooter and Motorcyckle. Builder seems to be the best option in here.
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-builder.PNG)
 
 		
 3. Creational.FactoryMethod:
@@ -25,6 +27,7 @@
 		- UserSection (FactoryMethod) will build User-related pages (decide internally which ones),
 		- AdminPanelSection (FactoryMethod) will build Admin-Panel pages (decide internally which ones).
 	- Usage II: Webshop sells completely different products, but at the end of a day all products share common base. FactoryMethod would be a great improvement in here. 
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-factory-method.PNG)
 
 
 4. Creational.Prototype:
@@ -112,7 +115,15 @@
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-chain-of-responsibility.PNG)	
 
 
-14. Architecures Review:
+14. Behavioral.Command:
+	- `Encapsulate a command request as an object`
+	- Pass commands towards the obects to execute the program flow
+	- Usage: State machine
+	- Usage: Calculator with Undo/Redo options (separate commands) history
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-command.PNG)	
+
+
+15. Architecures Review:
 	- MVC (Web Apps - CORE / ASP.NET / SPA)
 	- MVP (Windows Forms)
 	- MVVM (WPF apps)
