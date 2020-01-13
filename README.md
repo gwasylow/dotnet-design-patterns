@@ -120,10 +120,25 @@
 	- Pass commands towards the obects to execute the program flow
 	- Usage: State machine
 	- Usage: Calculator with Undo/Redo options (separate commands) history
+	- Usage: Task management system
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-command.PNG)	
 
 
-15. Architecures Review:
+15. Behavioral.Interpreter:
+	- Given a language, define a representation for its grammar along with `an interpreter that uses the representation to interpret sentences` in the language.
+	- Roman text interpretation to digits
+	- Usage: natural language translation
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-interpreter.PNG)	
+
+
+16. Behavioral.Iterator:
+	- Sequentially access the elements of a collection
+	- Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+	- Usage: sequential access thought elements
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-iterator.PNG)	
+
+
+17. Architecures Review:
 	- MVC (Web Apps - CORE / ASP.NET / SPA)
 	- MVP (Windows Forms)
 	- MVVM (WPF apps)
