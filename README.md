@@ -144,8 +144,13 @@
 	- Usage: Universal communication BUS
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-mediator.PNG)	
 
+18. Behavioral.Memento:
+	- `Capture and restore an object's internal state`
+	- Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
+	- Usage: Universal tool to capture/restore object state any time.
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-memento.PNG)	
 
-18. Architecures Review:
+19. Architecures Review:
 	- MVC (Web Apps - CORE / ASP.NET / SPA)
 	- MVP (Windows Forms)
 	- MVVM (WPF apps)
