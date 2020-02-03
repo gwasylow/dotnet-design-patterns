@@ -6,9 +6,9 @@
 	- Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 	- Usage: Report Engine & conctere Report Factories:
 		- We know that any report have shared engine (data/footer etc), but they are completely different in view (Factories):
-		- PdfReports, share dependencies among report family, ConcreteFacotry1,
-		- XlsReports, share dependencies among report family, ConcreteFacotry2,
-		- PlainReports, share dependencies among report family, ConcreteFacotry3.
+		- PdfReports, share dependencies among report family, `ConcreteFacotry1`,
+		- XlsReports, share dependencies among report family, `ConcreteFacotry2`,
+		- PlainReports, share dependencies among report family, `ConcreteFacotry3`.
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-abstract-factory.PNG)
 
 		
@@ -144,13 +144,22 @@
 	- Usage: Universal communication BUS
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-mediator.PNG)	
 
+
 18. Behavioral.Memento:
 	- `Capture and restore an object's internal state`
 	- Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
 	- Usage: Universal tool to capture/restore object state any time.
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-memento.PNG)	
 
-19. Architecures Review:
+
+19. Behavioral.Observer:
+	- A way of notifying change to a number of classes.	
+	- Define a `one-to-many dependency between objects so that when one object changes state`, all its dependents are `notified and updated automatically`.
+	- Usage: Stock price updater/notfirer. Any case scenario when we need to provide an update to Objects. 
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-observer.PNG)
+
+
+20. Architecures Review:
 	- MVC (Web Apps - CORE / ASP.NET / SPA)
 	- MVP (Windows Forms)
 	- MVVM (WPF apps)

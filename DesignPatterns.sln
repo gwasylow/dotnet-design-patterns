@@ -37,7 +37,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Iterator", "Beha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavioral.Mediator", "Behavioral.Mediator\Behavioral.Mediator.csproj", "{23B519F4-9234-4E0F-B169-494B0CAF5F86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Memento", "Behavioral.Memento\Behavioral.Memento.csproj", "{58911225-BFE0-46A2-B7FC-2ADE4EE03081}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavioral.Memento", "Behavioral.Memento\Behavioral.Memento.csproj", "{58911225-BFE0-46A2-B7FC-2ADE4EE03081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Observer", "Behavioral.Observer\Behavioral.Observer.csproj", "{E012C52A-BD4F-4BB4-807F-4B95CAEDAD4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{58911225-BFE0-46A2-B7FC-2ADE4EE03081}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58911225-BFE0-46A2-B7FC-2ADE4EE03081}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58911225-BFE0-46A2-B7FC-2ADE4EE03081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E012C52A-BD4F-4BB4-807F-4B95CAEDAD4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E012C52A-BD4F-4BB4-807F-4B95CAEDAD4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E012C52A-BD4F-4BB4-807F-4B95CAEDAD4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E012C52A-BD4F-4BB4-807F-4B95CAEDAD4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
