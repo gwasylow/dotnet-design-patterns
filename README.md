@@ -159,7 +159,14 @@
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-observer.PNG)
 
 
-20. Architecures Review:
+20. Behavioral.State:
+	- Alter an object's behavior when its state changes
+	- Allow an object to `alter its behavior when its internal state changes`. The object will appear to change its class.
+	- Usage: Object state changes tracking, for example: object to behave differently depending on its state (Bank account to behave differently depending on its balance showing Red/Bronze/Green status)
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-state.PNG)
+
+
+21. Architecures Review:
 	- MVC (Web Apps - CORE / ASP.NET / SPA)
 	- MVP (Windows Forms)
 	- MVVM (WPF apps)
