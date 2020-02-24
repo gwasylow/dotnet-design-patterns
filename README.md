@@ -16,7 +16,7 @@
 	- Separate the construction of a complex object from its representation so that the same construction process can create different representations.
 	- Usage: vehicle factory:
 		- Runs always 3 steps: `Plan / Build / Tests` (building methods),
-		- In our case we would like to have a possibility to build a Car, Scooter and Motorcyckle. Builder seems to be the best option in here.
+		- In our case we would like to have a possibility to build a Car, Scooter and Motorcyckle. Builder seems to be the best option in here.		
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-builder.PNG)
 
 		
@@ -166,7 +166,15 @@
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-state.PNG)
 
 
-21. Architecures Review:
+21. Behavioral.Strategy:
+	- `Encapsulates an algorithm inside a class`
+	- Define a family of algorithms, encapsulate each one, and make them interchangeable. 
+	- Strategy lets the algorithm vary independently from clients that use it.
+	- Usage: Hide your algorithm and share across the other objects, f.ex. different methods of cryptographic algorithms will be encapsulated under CryptoRepository conext class.
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-strategy.PNG)
+
+
+22. Architecures Review:
 	- MVC (Web Apps - CORE / ASP.NET / SPA)
 	- MVP (Windows Forms)
 	- MVVM (WPF apps)
