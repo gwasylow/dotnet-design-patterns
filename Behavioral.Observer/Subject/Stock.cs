@@ -21,22 +21,10 @@ namespace Behavioral.Observer.Subject
             this._price = price;
         }
 
-        public void Subscribe(IInvestor investor)
+        // Gets the symbol
+        public string Symbol
         {
-            _investors.Add(investor);
-        }
-
-        public void Unsubscribe(IInvestor investor)
-        {
-            _investors.Remove(investor);
-        }
-
-        public void Notify()
-        {
-            foreach (IInvestor investor in _investors)
-                investor.Update(this);
-
-            Console.WriteLine("");
+            get { return _symbol; }
         }
 
         // Gets or sets the price
@@ -53,10 +41,22 @@ namespace Behavioral.Observer.Subject
             }
         }
 
-        // Gets the symbol
-        public string Symbol
+        public void Subscribe(IInvestor investor)
         {
-            get { return _symbol; }
+            _investors.Add(investor);
+        }
+
+        public void Unsubscribe(IInvestor investor)
+        {
+            _investors.Remove(investor);
+        }
+
+        private void Notify()
+        {
+            foreach (IInvestor investor in _investors)
+                investor.Update(this);
+
+            Console.WriteLine("");
         }
     }
 }

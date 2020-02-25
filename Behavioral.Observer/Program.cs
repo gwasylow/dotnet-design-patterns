@@ -32,7 +32,8 @@ namespace Behavioral.Observer
         {
             //Create IBM stock and attach investors
             IBM ibm = new IBM("IBM", 120.00);
-            ibm.Subscribe(new Investor("George Sorros"));
+            var investor = new Investor("George Sorros");
+            ibm.Subscribe(investor);
             ibm.Subscribe(new Investor("Bill Gates"));
             ibm.Subscribe(new Investor("Bruce Willis"));
 
@@ -41,6 +42,10 @@ namespace Behavioral.Observer
             ibm.Price = 121.00;
             ibm.Price = 120.50;
             ibm.Price = 120.75;
+
+            //Unsubscribe George
+            ibm.Unsubscribe(investor);
+
             ibm.Price = 119.30;
             ibm.Price = 118.00;
 
