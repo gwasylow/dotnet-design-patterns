@@ -176,6 +176,7 @@
 
 22. Behavioral.TemplateMethod:
 	- Define the `skeleton of an algorithm in an operation`, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.	
+	- Abstract class defines the skeleton, which is invoked in a sub-classses.
 	- Usage: subclasses containing DAO objects, which are managed by Abstract DAO provider.
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-template-method.PNG)
 
