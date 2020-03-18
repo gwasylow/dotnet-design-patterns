@@ -181,7 +181,13 @@
 ![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-template-method.PNG)
 
 
-23. Architecures Review:
+23. Behavioral.Visitor:
+	- Represent an operation to be performed on the elements of an object structure. `Visitor lets you define a new operation without changing the classes of the elements` on which it operates.
+	- Usage: Interaction with objects without accessing their classes - f. ex. HR operations against all type of Employees. 
+![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dp-visitor.PNG)
+
+
+24. Architecures Review:
 	- MVC (Web Apps - CORE / ASP.NET / SPA)
 	- MVP (Windows Forms)
 	- MVVM (WPF apps)
