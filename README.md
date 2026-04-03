@@ -188,8 +188,122 @@
 
 
 24. Architecures Review:
-	- MVC (Web Apps - CORE / ASP.NET / SPA)
-	- MVP (Windows Forms)
-	- MVVM (WPF apps)
-	
-![alt text](https://github.com/gwasylow/dotnet-design-patterns/blob/master/Images/dg-mvc-mvp-mvvm.PNG)
+	# .NET Design Patterns
+
+	This repository contains concise, practical C#/.NET examples of common software design patterns. Each example demonstrates the pattern's intent, structure, and a small runnable demo.
+
+	## Table of Contents
+
+	- [How to use this repository](#how-to-use-this-repository)
+	- [Creational Patterns](#creational-patterns)
+	- [Structural Patterns](#structural-patterns)
+	- [Behavioral Patterns](#behavioral-patterns)
+	- [Architecture Notes](#architecture-notes)
+	- [Contributing](#contributing)
+
+	## How to use this repository
+
+	Open the solution in Visual Studio or run a specific pattern project from the command line. From a pattern folder, run:
+
+	```bash
+	dotnet run
+	```
+
+	Each pattern folder includes a demo `Program.cs` and organized subfolders for interfaces, concrete implementations, and supporting classes.
+
+	## Creational Patterns
+
+	- **Abstract Factory** — Provide an interface for creating families of related objects without specifying concrete classes. Typical use: creating related report types (PDF, XLS, Plain) that share common engine components.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-abstract-factory.PNG
+
+	- **Builder** — Separate construction of a complex object from its representation so the same process can create different representations. Typical use: constructing vehicles using a fixed sequence of steps (plan → build → test).
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-builder.PNG
+
+	- **Factory Method** — Define an interface for creating an object, but let subclasses decide which class to instantiate. Typical use: view/page builders or product factories.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-factory-method.PNG
+
+	- **Prototype** — Create new objects by copying a prototype instance. Typical use: cloning objects with custom initialization.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-prototype.PNG
+
+	- **Singleton** — Ensure a class has only one instance and provide a global access point. Typical use: shared services or configuration providers.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-singleton.PNG
+
+	## Structural Patterns
+
+	- **Adapter** — Convert the interface of a class into another interface clients expect; useful for integrating incompatible APIs.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-adapter.PNG
+
+	- **Bridge** — Decouple an abstraction from its implementation so the two can vary independently.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-bridge.PNG
+
+	- **Composite** — Compose objects into tree structures to represent part–whole hierarchies; treat individual objects and compositions uniformly.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-composite.PNG
+
+	- **Decorator** — Attach additional responsibilities to an object dynamically using composition instead of inheritance.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-decorator.PNG
+
+	- **Facade** — Provide a simplified, higher-level interface to a set of subsystems.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-facade.PNG
+
+	- **Flyweight** — Use sharing to support large numbers of fine-grained objects efficiently (memory optimization).
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-flyweight.PNG
+
+	- **Proxy** — Provide a surrogate or placeholder to control access to another object (remote, virtual, or protection proxies).
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-proxy.PNG
+
+	## Behavioral Patterns
+
+	- **Chain of Responsibility** — Pass requests along a chain of handlers until one handles the request. Typical use: approval workflows.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-chain-of-responsibility.PNG
+
+	- **Command** — Encapsulate a request as an object to allow parameterization, queuing, and undo/redo.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-command.PNG
+
+	- **Interpreter** — Represent a grammar and implement an interpreter to process sentences in that language (e.g., Roman numerals).
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-interpreter.PNG
+
+	- **Iterator** — Provide sequential access to elements of an aggregate without exposing its representation.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-iterator.PNG
+
+	- **Mediator** — Encapsulate how objects interact to promote loose coupling; useful as a communication hub.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-mediator.PNG
+
+	- **Memento** — Capture and restore an object's internal state without violating encapsulation.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-memento.PNG
+
+	- **Observer** — Define a one-to-many dependency so dependents are notified and updated automatically.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-observer.PNG
+
+	- **State** — Allow an object to alter its behavior when its internal state changes.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-state.PNG
+
+	- **Strategy** — Define a family of interchangeable algorithms.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-strategy.PNG
+
+	- **Template Method** — Define the skeleton of an algorithm in a base class and defer steps to subclasses.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-template-method.PNG
+
+	- **Visitor** — Define new operations on elements of an object structure without changing their classes.
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dp-visitor.PNG
+
+	## Architecture Notes
+
+	- **MVC** — Model-View-Controller (common for web apps and SPAs)
+	- **MVP** — Model-View-Presenter (common in Windows Forms)
+	- **MVVM** — Model-View-ViewModel (common in WPF)
+		- Image: https://raw.githubusercontent.com/gwasylow/dotnet-design-patterns/master/Images/dg-mvc-mvp-mvvm.PNG
+
+	---
+
+	## Contributing
+
+	If you'd like improvements, please open an issue or submit a pull request. Suggested next tasks:
+
+	- Convert inline image references to locally checked-in assets for offline viewing.
+	- Add short console output examples to each demo `Program.cs`.
+
+	---
+
+	If you want, I can now:
+	- convert all image links to local relative paths, or
+	- create anchor links for each individual pattern entry in the TOC.

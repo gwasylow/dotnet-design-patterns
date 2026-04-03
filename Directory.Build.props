@@ -1,0 +1,13 @@
+<Project>
+  <PropertyGroup>
+    <!-- Prevent SDK from auto-generating assembly attributes when AssemblyInfo files are present -->
+    <!-- Allow SDK to generate assembly attributes (we'll remove legacy AssemblyInfo files) -->
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Exclude legacy AssemblyInfo files from compilation to avoid duplicate attribute errors -->
+    <Compile Remove="**/Properties/AssemblyInfo.cs" />
+    <None Remove="**/Properties/AssemblyInfo.cs" />
+  </ItemGroup>
+</Project>
